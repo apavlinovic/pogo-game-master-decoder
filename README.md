@@ -12,4 +12,16 @@ A copy &amp; paste decoder for Pokémon GO
 4. Paste your extracted GAME_MASTER file in the "game-master-files" folder
 5. Use the following command to run the decoder, replacing the NAME_OF_YOUR_GAME_MASTER with the actual name of the file:
 
-    gamemaster-decompile.bat **NAME_OF_YOUR_GAME_MASTER**
+``` batch
+gamemaster-decompile.bat NAME_OF_YOUR_GAME_MASTER
+```
+
+There is no need to write the whole path to the GAME_MASTER file, just it's name. Here's a more concrete example:
+
+``` batch
+gamemaster-decompile.bat 000001597FF747A8_GAME_MASTER
+```
+
+Your output should look like this:
+
+![GAME_MASTER decoder output](https://i.redditmedia.com/YgnzC7G3tZWol0RbGQsHPm5QXkeK9YwBQW68WLdA8LY.png?w=450&s=2e0add0ec3890addde7a5b683ed7da58)
