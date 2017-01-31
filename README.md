@@ -7,7 +7,8 @@ A copy &amp; paste decoder for Pokémon GO
 
 2. Open the folder on your computer
 
-  2.1 Position your Windows Explorer so you see **gamemaster-decompile.bat**
+  2.1 Open the folder **go-hub-game-master-decompiler**
+  2.2 Position your Windows Explorer so you see **gamemaster-decompile.bat**
 
 3. Open up Command Prompt in this folder
 
@@ -23,6 +24,12 @@ A copy &amp; paste decoder for Pokémon GO
 gamemaster-decompile.bat NAME_OF_YOUR_GAME_MASTER
 ```
 
+6. The decoded GAME_MASTER is now in your **clipboard**
+
+7. Paste the decoded GAME_MASTER in any text editor, Word, Google Doc. We recommend Sublime Text, Atom or Notepad++.
+
+## Example
+
 There is no need to write the whole path to the GAME_MASTER file, just it's name. Here's a more concrete example:
 
 ``` batch
@@ -32,3 +39,7 @@ gamemaster-decompile.bat 000001597FF747A8_GAME_MASTER
 Your output should look like this:
 
 ![GAME_MASTER decoder output](https://i.redditmedia.com/YgnzC7G3tZWol0RbGQsHPm5QXkeK9YwBQW68WLdA8LY.png?w=450&s=2e0add0ec3890addde7a5b683ed7da58)
+
+## F.A.Q.
+
+The batch script wont damage your PC or write anything on it. The only place where anything is written is clipboard. You need Windows for this. 
