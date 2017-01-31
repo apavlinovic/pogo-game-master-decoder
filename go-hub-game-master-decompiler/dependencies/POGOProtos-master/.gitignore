@@ -1,0 +1,12 @@
+# Project files
+.idea/
+
+# Protoc files
+out/
+out2/
+tmp/
+/pogo/assist.py
+*.pyc
+
+# Backup files
+*~
