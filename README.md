@@ -9,6 +9,7 @@ A copy &amp; paste decoder for Pokémon GO
 
   2.1 Open the folder **go-hub-game-master-decompiler**
   2.2 Windows: Position your Windows Explorer so you see **gamemaster-decompile.bat**
+
       Mac OS X: same as above, but **gamemaster-decompile.sh**
 
 3a. Windows: Open up Command Prompt in this folder
@@ -20,6 +21,7 @@ A copy &amp; paste decoder for Pokémon GO
 3b. Mac OS X: Open up Terminal in this folder
 
   3.1 Open up Terminal, type in "cd " and drag&drop any file from the folder, remove the file name and press enter. This should go to the directory.
+
 
 4. Paste your extracted GAME_MASTER file in the "game-master-files" folder
 
