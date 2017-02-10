@@ -31,9 +31,11 @@ A copy &amp; paste decoder for Pokémon GO
 gamemaster-decompile.bat NAME_OF_YOUR_GAME_MASTER
 ```
 
-   Mac OS X: just run ``` batch
+   Mac OS X: just run 
+``` batch
 gamemaster-decompile.sh
 ```
+
    The script takes the latest Game master file from the directory.
 
 6. The decoded GAME_MASTER is now in your **clipboard**
