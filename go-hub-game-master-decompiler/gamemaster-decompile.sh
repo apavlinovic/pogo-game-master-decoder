@@ -7,7 +7,8 @@ pogo_gamemaster_dir="./game-master-files/"
 pogo_gamemaster_name=$(ls -t "$pogo_gamemaster_dir" | head -n1)
 pogo_gamemaster=$pogo_gamemaster_dir$(ls -t "$pogo_gamemaster_dir" | head -n1)
 
-./dependencies/protoc-3.2.0rc2-osx-x86_64/bin/protoc --proto_path="$pogo_protos_path" --decode="$pogo_protos_target"  "$pogo_protos_template"  < "$pogo_gamemaster" | pbcopy
+##./dependencies/protoc-3.2.0-osx-x86_64/bin/protoc --proto_path="$pogo_protos_path" --decode="$pogo_protos_target"  "$pogo_protos_template"  < "$pogo_gamemaster" | pbcopy
+./dependencies/protoc-3.2.0-osx-x86_64/bin/protoc --proto_path="$pogo_protos_path" --decode="$pogo_protos_target"  "$pogo_protos_template"  < "$pogo_gamemaster" >> "$pogo_gamemaster_name"_output.txt
 
 echo "****************************************************" 
 echo "*                                                  *"
